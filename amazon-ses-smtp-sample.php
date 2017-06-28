@@ -13,8 +13,8 @@ $mail->Username = '';
 $mail->Password = '';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
-$mail->setFrom('from@domain.com', 'PACCAR');
-$mail->addAddress('toname@domain.com', 'Harisha V');
+$mail->setFrom('from_email_address@domain.com', 'From Name');
+$mail->addAddress('to_email_address@domain.com', 'To Name');
 
 $mail->isHTML(true);
 $mail->Subject = 'Amazon SES test (SMTP interface accessed using PHP)';
